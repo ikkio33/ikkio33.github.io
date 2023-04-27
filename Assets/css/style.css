@@ -77,3 +77,16 @@ border-bottom-color: red;
     font-size: 2rem;
   }
   /*fin de la barra de navegacion*/
+
+    /*CAROUSEL*/
+#carouselExampleControls {
+    height: 100vh;
+  }
+    
+#carouselExampleControls img {
+    object-fit: cover;
+  }
+    
+.carousel, .carousel-inner, .item, .active{
+    height:100%;
+  }
