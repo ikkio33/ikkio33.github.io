@@ -126,3 +126,86 @@ border-bottom-color: red;
     height: 100%;
     object-fit: cover;
   }
+  /*CONTACT SECTION*/
+  #contact > div button {
+    background-color: turquoise;
+    color: white;
+  }
+  /*CONTACT SECTION END*/
+
+  /*FOOTER*/
+  footer {
+    padding: 20px 0;
+    background-color: turquoise;
+  }
+
+  footer > div {
+    width: 70%;
+  }
+
+  footer > div > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+  }
+
+  footer > div > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+  }
+
+  footer > div > div:nth-child(2) > ul {
+    margin-left: auto !important;
+  }
+
+  footer > div:nth-child(1) > div > span {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  footer > div:nth-child(1) > div > ul > li {
+    margin: auto 10px;
+    display: inline;
+  }
+
+  footer > div:nth-child(1) > div > ul > li > a > i {
+    font-size: 3rem;
+  }
+  /*FOOTER END*/
+
+  /*------------------MEDIA QUERIES----------------*/
+
+  /*CUSTOM 0px - 992px*/
+  @media (max-width: 992px) {
+    /*CAROUSEL*/
+    #carouselExampleControls {
+      height: auto;
+    }
+
+    /*FOOTER*/
+    footer > div {
+      width: 90%;
+    }
+
+    footer > div > div:nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer > div > div:nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer > div > div:nth-child(2) > ul {
+      margin-left: 0 !important;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    footer > div {
+      width: 90%;
+    }
+  }
